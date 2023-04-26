@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "python-json-converter"
+version = "0.1.0"
+description = "A Python library to convert JSON objects from one schema to another using a set of conversion rules."
+authors = ["egorkaBurkenya <sleepyegorka@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_json_converter"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
